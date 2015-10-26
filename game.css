@@ -1,0 +1,32 @@
+
+.background    { background: url('../images/at.jpg');
+                 table-layout: fixed;
+                 border-spacing: 0;   
+                 
+                 }
+.background td { padding: 0;          }
+.lava          { background: rgb(204, 255, 255); }
+.wall          { background: rgb(255, 204, 255);   }
+
+.actor  { position: absolute;  }
+.coin   { background: url('../images/coin.png'); }
+.player { background: url('../images/fin.png'); }
+.bubble  { background: url('../images/iceking.png') ; }
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 0;
+}
+
+.lost .player {
+  background: rgb(204, 255, 255);
+}
+.won .player {
+  box-shadow: -6px -9px 10px rgb(255,204,255), 6px -9px 10px rgb(255,204,255);
+}
