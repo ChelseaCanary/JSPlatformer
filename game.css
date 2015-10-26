@@ -1,17 +1,16 @@
-
-.background    { background: url('../images/at.jpg');
+.background    { background: rgb(153, 51, 255);
                  table-layout: fixed;
                  border-spacing: 0;   
                  
                  }
 .background td { padding: 0;          }
-.lava          { background: rgb(204, 255, 255); }
+.lava          { background: rgb(102,255,102); }
 .wall          { background: rgb(255, 204, 255);   }
 
 .actor  { position: absolute;  }
-.coin   { background: url('../images/coin.png'); }
-.player { background: url('../images/fin.png'); }
-.bubble  { background: url('../images/iceking.png') ; }
+.coin   { background: rgb(255,204,0); }
+.player { background: rgb(0,0,153); }
+.bubble  { background: rgb(255,255,255) ; }
 
 .game {
   overflow: hidden;
